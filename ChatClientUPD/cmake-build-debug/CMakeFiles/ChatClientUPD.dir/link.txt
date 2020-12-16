@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/ChatClientUPD.dir/main.cpp.o  -o ChatClientUPD 

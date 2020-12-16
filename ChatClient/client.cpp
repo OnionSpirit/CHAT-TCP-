@@ -21,11 +21,9 @@ int main(int argc, char* argv[]){
     int port_1 = EXTRA_PORT;
     int* port = &port_1;
     try{
-        if(argc == 2) {
-            port = reinterpret_cast<int* >(argv[argc]);
-        }
-        else if(argc == 3){
-            IP = reinterpret_cast<const char* >(argv[argc]);
+        if(argc > 2) {
+            port = reinterpret_cast<int* >(argv[2]);
+            IP = reinterpret_cast<const char* >(argv[3]);
         }
         else {
             throw 1;
