@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/CharServerUPD.dir/main.cpp.o  -o CharServerUPD 
