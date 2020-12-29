@@ -19,4 +19,8 @@ cstring
 -
 netinet/in.h
 /home/ivan/CLionProjects/CharServerUPD/netinet/in.h
+sstream
+-
+thread
+/home/ivan/CLionProjects/CharServerUPD/thread
 

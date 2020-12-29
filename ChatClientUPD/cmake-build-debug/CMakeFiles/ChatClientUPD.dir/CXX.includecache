@@ -21,4 +21,8 @@ cstring
 -
 netinet/in.h
 /home/ivan/CLionProjects/ChatClientUPD/netinet/in.h
+sstream
+-
+thread
+/home/ivan/CLionProjects/ChatClientUPD/thread
 
