@@ -1,1 +1,1 @@
-/usr/bin/c++  -g   CMakeFiles/ChatClient.dir/client.cpp.o  -o ChatClient 
+/usr/bin/c++   -pthread -g   CMakeFiles/ChatClient.dir/client.cpp.o  -o ChatClient 

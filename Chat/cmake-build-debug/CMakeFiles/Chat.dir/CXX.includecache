@@ -19,4 +19,10 @@ cstring
 -
 netinet/in.h
 /home/ivan/CLionProjects/Chat/netinet/in.h
+sstream
+-
+thread
+-
+pthread.h
+/home/ivan/CLionProjects/Chat/pthread.h
 
