@@ -71,7 +71,7 @@ int main(int argc, char* argv[]) {
     FD_ZERO(&set);
     FD_SET(sock, &set);
     timeout.tv_sec = 0;
-    timeout.tv_usec = 0;
+    timeout.tv_usec = 1000;
     char buffer[BUFFER_SIZE];
     memset(buffer, 0, BUFFER_SIZE);
     int process = 0;
