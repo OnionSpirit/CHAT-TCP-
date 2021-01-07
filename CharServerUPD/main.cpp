@@ -82,7 +82,7 @@ int main(int argc, char* argv[]) {
         std::cout << ERROR << "Клиенту не удалось присоединиться" << std::endl;
         Cut_off(port, sock, client_address);
     }
-    memset(buffer, BUFFER_SIZE, 0);
+    memset(buffer, 0, BUFFER_SIZE);
     std::cout << NOTICE << "Клиент подключён" << std::endl;
     std::cout << "Введите " << CLOSE_SYMBOL <<" для завершения сеанса соединения\n" << std::endl;
 
